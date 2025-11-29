@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-// IMPORTANT: Keep the Vite CSS import or remove it if unused
 import "./styles/global.css";
 
 export default function App() {

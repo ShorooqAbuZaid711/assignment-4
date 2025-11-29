@@ -100,7 +100,6 @@ textarea {
   transition: 0.25s ease;
 }
 
-/* These placeholders must exist for floating labels to work */
 input::placeholder,
 textarea::placeholder {
   color: transparent !important;
@@ -143,7 +142,6 @@ textarea:focus {
   transition: 0.25s ease;
 }
 
-/* Move label up */
 input:not(:placeholder-shown) + .floating,
 textarea:not(:placeholder-shown) + .floating {
   top: -0.55rem;
