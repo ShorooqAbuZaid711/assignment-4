@@ -6,13 +6,13 @@
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 26px;
-  padding: 2.2rem 1.8rem;
+  padding: 2rem;                  /* keeps card appearance */
   margin: 1.75rem auto;
   max-width: 760px;
   width: 100%;
-
   backdrop-filter: blur(40px) saturate(180%);
   transition: 0.28s ease;
+  text-align: center;
 }
 
 .project-card:hover {
@@ -25,18 +25,18 @@
 }
 
 /* Header */
-.project-card-header {
+.project-card-header h3, .project-subtitle,
+.project-body p {
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 0;
+  line-height: 1.6;
 }
 
-.project-card-header h3 {
-  font-size: var(--fs-h2);
-  color: var(--text);
-}
-
-.project-subtitle {
-  color: var(--text-muted);
+.project-card-header h3 + .project-subtitle,
+.project-subtitle + .pill-row,
+.pill-row + .project-body,
+.project-body p + p {
+  margin-top: 1rem;               /* spacing ONLY between elements */
 }
 
 /* Pills */
@@ -45,6 +45,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.45rem;
+  margin: 1.2rem 0 1.2rem 0;
 }
 
 .pill {
@@ -70,4 +71,6 @@
 .project-image {
   max-width: 100%;
   border-radius: 20px;
+  margin-top: 1rem;
 }
+
