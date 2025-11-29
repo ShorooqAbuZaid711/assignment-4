@@ -9,37 +9,37 @@
 1. File Structure
 ```pgsql
 assignment-3/
-    ├── README.md
-    ├── docs/
-    │   ├── ai-usage-report.md
-    │   └── technical-documentation.md
-    ├── src/
-    │   ├── App.jsx
-    │   ├── main.jsx
-    │   ├── components/
-    │   │   ├── Header.jsx
-    │   │   ├── Layout.jsx
-    │   │   ├── ContactForm.jsx
-    │   │   ├── GitHubSection.jsx
-    │   │   ├── ProjectCard.jsx
-    │   │   ├── SearchBar.jsx
-    │   │   └── ThemeToggle.jsx
-    │   ├── pages/
-    │   │   ├── Home.jsx
-    │   │   ├── About.jsx
-    │   │   ├── Projects.jsx
-    │   │   └── Contact.jsx
-    │   ├── context/
-    │   │   └── ThemeContext.jsx
-    │   ├── assets/
-    │   │   └── images/
-    │   └── styles/
-    │       ├── global.css
-    │       ├── cards.css
-    │       └── theme.css
-    ├── .gitignore
-    ├── package.json
-    └── vite.config.js
+├── README.md
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Layout.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── GitHubSection.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── ThemeToggle.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   └── Contact.jsx
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   ├── assets/
+│   │   └── images/
+│   └── styles/
+│       ├── global.css
+│       ├── cards.css
+│       └── theme.css
+├── .gitignore
+├── package.json
+└── vite.config.js
 ```
 
 ---
