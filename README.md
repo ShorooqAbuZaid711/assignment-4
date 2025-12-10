@@ -12,6 +12,13 @@ It is a modern, responsive, React-based single-page application that showcases:
 
 ---
 
+## 🔗 Live Demo
+
+The deployed website is available here:  
+**https://shorooqabuzaid.netlify.app**
+
+---
+
 ## 🧱 Tech Stack
 
 - **Frontend:** React (with Vite)

@@ -212,7 +212,15 @@ assignment-4/
 
 ---
 
-8. Known Limitations
+8. Deployment Details
+The app is deployed through Netlify.
+- Build command: npm run build
+- Output directory: dist/
+- Netlify automatically rebuilds the website when the GitHub repo is updated.
+
+---
+
+9. Known Limitations
 - Contact form is client-side only (no backend).
 - GitHub API is unauthenticated; heavy usage may hit rate limits.
 - No localization (English only).
